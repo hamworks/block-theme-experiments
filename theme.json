@@ -28,6 +28,12 @@
 		},
 		"blocks": {
 			"core/site-title": {
+				"spacing": {
+					"margin": {
+						"top": "10px",
+						"bottom": "10px"
+					}
+				},
 				"typography": {
 					"fontSize": "50px"
 				}
