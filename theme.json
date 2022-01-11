@@ -15,24 +15,6 @@
 					"name": "Japanese Fonts",
 					"slug": "japanese-fonts"
 				}
-			],
-			"fontSizes": [
-				{
-					"size": "1rem",
-					"slug": "small"
-				},
-				{
-					"size": "1.125rem",
-					"slug": "medium"
-				},
-				{
-					"size": "1.75rem",
-					"slug": "large"
-				},
-				{
-					"size": "clamp(1.75rem, 3vw, 2.25rem)",
-					"slug": "x-large"
-				}
 			]
 		}
 	},
