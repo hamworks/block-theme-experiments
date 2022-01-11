@@ -1,10 +1,48 @@
 {
+	"$schema": "https://schemas.wp.org/trunk/theme.json ",
 	"version": 2,
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
 			"contentSize": "840px",
 			"wideSize": "1100px"
+		},
+		"typography": {
+			"dropCap": false,
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, \"Segoe UI\", \"Helvetica Neue\", \"Hiragino Kaku Gothic ProN\", メイリオ, meiryo, sans-serif",
+					"name": "Japanese Fonts",
+					"slug": "japanese-fonts"
+				}
+			],
+			"fontSizes": [
+				{
+					"size": "1rem",
+					"slug": "small"
+				},
+				{
+					"size": "1.125rem",
+					"slug": "medium"
+				},
+				{
+					"size": "1.75rem",
+					"slug": "large"
+				},
+				{
+					"size": "clamp(1.75rem, 3vw, 2.25rem)",
+					"slug": "x-large"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--japanese-fonts)"
+		},
+		"color": {
+			"background": "#dddddd",
+			"text": "#333333"
 		}
 	}
 }
